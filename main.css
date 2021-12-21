@@ -1,0 +1,11 @@
+@keyframes opacity {
+    from {
+        opacity:1;
+    } to {
+        opacity:0;
+    }
+}
+
+.smooth {
+    animation: opacity 0.6s ease-in-out;
+}
